@@ -2,9 +2,6 @@
 #
 # Title: R code for interacting with the Eurostat Bulk Download Facility
 #
-# Description:
-#   Important Variables
-#
 # Author: Graeme Walsh <graeme.walsh@hotmail.co.uk>
 # Date: 17/08/2018
 
@@ -26,6 +23,7 @@
 #' @docType package
 #' @name EurostatBDF
 NULL
+
 
 # Important variables -----------------------------------------------------
 
@@ -346,3 +344,4 @@ getColhead <- function(csv_data){
 
   return(colhead)
 }
+

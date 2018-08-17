@@ -8,3 +8,5 @@ It is optional for the function to also return the raw data (as it was downloade
 and the data in CSV form (containing codes and labels). 
 
 The code behind this package also serves as a backend to an EViews add-in created by the author.
+
+The package has no dependencies other than base R.
